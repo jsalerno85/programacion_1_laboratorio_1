@@ -1,6 +1,6 @@
-#ifndef FUNCIONES_H_INCLUDED
-#define FUNCIONES_H_INCLUDED
 
-
-
-#endif // FUNCIONES_H_INCLUDED
+float sumarOperandos(float x,float y);
+float restarOperandos(float x,float y);
+float dividirOperandos(float x,float y);
+float multiplicarOperandos(float x,float y);
+int factorial(int x);
