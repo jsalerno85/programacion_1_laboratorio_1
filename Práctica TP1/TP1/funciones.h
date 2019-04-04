@@ -1,6 +1,6 @@
 
-float sumarOperandos(float x,float y);
-float restarOperandos(float x,float y);
-float dividirOperandos(float x,float y);
-float multiplicarOperandos(float x,float y);
-int factorial(int x);
+float sumarOperandos(float x,float y); // prototipo
+float restarOperandos(float x,float y); // prototipo
+float dividirOperandos(float x,float y); // prototipo
+float multiplicarOperandos(float x,float y); // prototipo
+int factorial(int x); // prototipo

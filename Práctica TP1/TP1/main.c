@@ -2,12 +2,6 @@
 #include <stdlib.h>
 #include "funciones.h"
 
-float sumarOperandos(float,float);
-float restarOperandos(float,float);
-float dividirOperandos(float,float);
-float multiplicarOperandos(float,float);
-int factorial(int);
-
 int main()
 {
     char seguir='s';
@@ -26,9 +20,7 @@ int main()
         printf("7- Calcular el factorial (A=%.2f)\n",A);
         printf("8- Calcular todas las operaciones\n");
         printf("9- Salir\n\n");
-
         scanf("%d",&opcion);
-
         switch(opcion)
         {
             case 1:
@@ -65,7 +57,6 @@ int main()
                 seguir = 'n';
                 break;
         }
-
     }
     return 0;
 }
